@@ -19,6 +19,7 @@
         <th>billing_name</th>
         <th>billing_zip</th>
         <th>shipping_zip</th>
+        <th>status</th>
         <th>total</th>
         <th>created_at</th>
        </tr>
@@ -30,6 +31,7 @@
      <td>{{$order->billing_name}}</td> 
      <td>{{$order->billing_zip}}</td> 
      <td>{{$order->shipping_zip}}</td> 
+     <td>{{$order->status}}</td>
      <td>{{$order->total}}</td> 
      <td>{{$order->created_at}}</td> 
      </tr>
